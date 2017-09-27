@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CE7F0571F7BF1CA00D7B268 /* secondViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE7F0561F7BF1CA00D7B268 /* secondViewViewController.m */; };
 		D156EDB01F732FBA00AC7251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDAF1F732FBA00AC7251 /* main.m */; };
 		D156EDB31F732FBA00AC7251 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDB21F732FBA00AC7251 /* AppDelegate.m */; };
 		D156EDB61F732FBA00AC7251 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDB51F732FBA00AC7251 /* Home.m */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CE7F0551F7BF1CA00D7B268 /* secondViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondViewViewController.h; sourceTree = "<group>"; };
+		1CE7F0561F7BF1CA00D7B268 /* secondViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondViewViewController.m; sourceTree = "<group>"; };
 		D156EDAB1F732FBA00AC7251 /* Mi Primera Tabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi Primera Tabla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D156EDAF1F732FBA00AC7251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D156EDB11F732FBA00AC7251 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 			children = (
 				D156EDB41F732FBA00AC7251 /* Home.h */,
 				D156EDB51F732FBA00AC7251 /* Home.m */,
+				1CE7F0551F7BF1CA00D7B268 /* secondViewViewController.h */,
+				1CE7F0561F7BF1CA00D7B268 /* secondViewViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 				D156EDB31F732FBA00AC7251 /* AppDelegate.m in Sources */,
 				D19AFA011F7336C000D53E56 /* cellMainTable.m in Sources */,
 				D156EDB01F732FBA00AC7251 /* main.m in Sources */,
+				1CE7F0571F7BF1CA00D7B268 /* secondViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
