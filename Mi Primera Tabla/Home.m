@@ -11,10 +11,10 @@
 #import "secondViewViewController.h"
 
 @interface Home ()
-@property NSMutableArray *userNames;
-@property NSMutableArray *userAges;
-@property NSMutableArray *userDescriptions;
-@property NSMutableArray *userImages;
+@property NSMutableArray *snikerNames;
+@property NSMutableArray *snikerPrice;
+@property NSMutableArray *nikerDescription;
+@property NSMutableArray *snikerImages;
 @property (strong, nonatomic) IBOutlet UIImageView *tmpImage;
 @property NSMutableArray *dataToSend;
 @end
@@ -36,13 +36,13 @@
 
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.userNames  = [[NSMutableArray alloc] initWithObjects: @"Tyrion Lannister", @"Daenerys Targaryen", @"Jon Snow", @"Arya Stark", @"Cersei Lannister", nil];
+    self.snikerNames  = [[NSMutableArray alloc] initWithObjects: @"Roshe run", @"Air max", @"Air force", @"Canvas", @"Runner", @"Roshe one", nil];
     
-        self.userDescriptions  = [[NSMutableArray alloc] initWithObjects: @"Tyrion Lannister is a man", @"Daenerys Targaryen is a bad person", @"I hate Jon Snow", @"I love Arya Stark", @"I hate Cersei Lannister", nil];
+        self.nikerDescription  = [[NSMutableArray alloc] initWithObjects: @"Tyrion Lannister is a man", @"Daenerys Targaryen is a bad person", @"I hate Jon Snow", @"I love Arya Stark", @"I hate Cersei Lannister", @"I hate Cersei Lannister", nil];
     
-    self.userAges  = [[NSMutableArray alloc] initWithObjects: @"38 años", @"22 años", @"25 años", @"16 años", @"42 años", nil];
+    self.snikerPrice  = [[NSMutableArray alloc] initWithObjects: @"1500", @"2300", @"2200", @"1800", @"2100", @"2200", nil];
 
-    self.userImages = [[NSMutableArray alloc] initWithObjects: [UIImage imageNamed:@"tyrion.jpg"], [UIImage imageNamed:@"daenerys.jpeg"], [UIImage imageNamed:@"jon.jpg"], [UIImage imageNamed:@"arya.jpg"], [UIImage imageNamed:@"cersei.jpg"], nil];
+    self.snikerImages = [[NSMutableArray alloc] initWithObjects: [UIImage imageNamed:@"nike.jpg"], [UIImage imageNamed:@"nike2.jpg"], [UIImage imageNamed:@"nike3.jpg"], [UIImage imageNamed:@"nike4.jpg"], [UIImage imageNamed:@"nike5.jpg"],[UIImage imageNamed:@"nike6.jpg"], nil];
 }
 
 /**********************************************************************************************/
@@ -53,7 +53,7 @@
 }
 //-------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.userNames.count;
+    return self.snikerNames.count;
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -69,9 +69,9 @@
         cell = [tableView dequeueReusableCellWithIdentifier:@"cellMainTable"];
     }
     //Fill cell with info from arrays
-    cell.lblName.text       = self.userNames[indexPath.row];
-    cell.lblAge.text        = self.userAges[indexPath.row];
-    cell.imgUser.image      = self.userImages[indexPath.row];
+    cell.lblName.text       = self.snikerNames[indexPath.row];
+    cell.lblAge.text        = self.snikerPrice[indexPath.row];
+    cell.imgUser.image      = self.snikerImages[indexPath.row];
     
     return cell;
 }
@@ -80,10 +80,10 @@
     
     self.dataToSend = [[NSMutableArray alloc]init];
     [self.dataToSend addObject:@{
-                                        @"name" :  self.userNames[indexPath.row],
-                                        @"age" : self.userAges[indexPath.row],
-                                        @"image" :  self.userImages[indexPath.row],
-                                        @"description": self.userDescriptions[indexPath.row]
+                                        @"name" :  self.snikerNames[indexPath.row],
+                                        @"age" : self.snikerPrice[indexPath.row],
+                                        @"image" :  self.snikerImages[indexPath.row],
+                                        @"description": self.nikerDescription[indexPath.row]
                                         }];
     
     NSDictionary *objectToSend = self.dataToSend[0];
@@ -116,8 +116,8 @@
         UITextField * namefield = textfields[0];
         UITextField * agefield = textfields[1];
         
-        [self.userNames addObject:namefield.text];
-        [self.userAges addObject:agefield.text];
+        [self.snikerNames addObject:namefield.text];
+        [self.snikerPrice addObject:agefield.text];
         
         UIImagePickerController *picker = [[UIImagePickerController alloc] init];
         picker.delegate = self;
@@ -140,7 +140,7 @@
     //self.tmpImage.image = chosenImage;
     [picker dismissViewControllerAnimated:YES completion:nil];
 
-    [self.userImages addObject:chosenImage];
+    [self.snikerImages addObject:chosenImage];
     [self.tblMain reloadData];
 }
 

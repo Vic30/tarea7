@@ -17,17 +17,12 @@
 		D156EDC11F732FBA00AC7251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D156EDBF1F732FBA00AC7251 /* LaunchScreen.storyboard */; };
 		D19AFA011F7336C000D53E56 /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D19AF9FF1F7336C000D53E56 /* cellMainTable.m */; };
 		D19AFA021F7336C000D53E56 /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA001F7336C000D53E56 /* cellMainTable.xib */; };
-		D19AFA1F1F734CFF00D53E56 /* arya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1A1F734CFF00D53E56 /* arya.jpg */; };
-		D19AFA201F734CFF00D53E56 /* cersei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1B1F734CFF00D53E56 /* cersei.jpg */; };
-		D19AFA211F734CFF00D53E56 /* daenerys.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */; };
-		D19AFA221F734CFF00D53E56 /* jon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1D1F734CFF00D53E56 /* jon.jpg */; };
-		D19AFA231F734CFF00D53E56 /* tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19AFA1E1F734CFF00D53E56 /* tyrion.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CE7F0551F7BF1CA00D7B268 /* secondViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondViewViewController.h; sourceTree = "<group>"; };
 		1CE7F0561F7BF1CA00D7B268 /* secondViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondViewViewController.m; sourceTree = "<group>"; };
-		D156EDAB1F732FBA00AC7251 /* Mi Primera Tabla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi Primera Tabla.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D156EDAB1F732FBA00AC7251 /* Tarea 5 - Zapateria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarea 5 - Zapateria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D156EDAF1F732FBA00AC7251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D156EDB11F732FBA00AC7251 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D156EDB21F732FBA00AC7251 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,11 +36,6 @@
 		D19AF9FE1F7336C000D53E56 /* cellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
 		D19AF9FF1F7336C000D53E56 /* cellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
 		D19AFA001F7336C000D53E56 /* cellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
-		D19AFA1A1F734CFF00D53E56 /* arya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arya.jpg; sourceTree = "<group>"; };
-		D19AFA1B1F734CFF00D53E56 /* cersei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cersei.jpg; sourceTree = "<group>"; };
-		D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daenerys.jpeg; sourceTree = "<group>"; };
-		D19AFA1D1F734CFF00D53E56 /* jon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jon.jpg; sourceTree = "<group>"; };
-		D19AFA1E1F734CFF00D53E56 /* tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyrion.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +60,7 @@
 		D156EDAC1F732FBA00AC7251 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D156EDAB1F732FBA00AC7251 /* Mi Primera Tabla.app */,
+				D156EDAB1F732FBA00AC7251 /* Tarea 5 - Zapateria.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,7 +68,6 @@
 		D156EDAD1F732FBA00AC7251 /* Mi Primera Tabla */ = {
 			isa = PBXGroup;
 			children = (
-				D19AFA191F734CFF00D53E56 /* imgs */,
 				D156EDC81F732FCA00AC7251 /* Main */,
 				D156EDC91F732FD500AC7251 /* Controllers */,
 				D19AF9FD1F73360A00D53E56 /* Cells */,
@@ -130,24 +119,12 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
-		D19AFA191F734CFF00D53E56 /* imgs */ = {
-			isa = PBXGroup;
-			children = (
-				D19AFA1A1F734CFF00D53E56 /* arya.jpg */,
-				D19AFA1B1F734CFF00D53E56 /* cersei.jpg */,
-				D19AFA1C1F734CFF00D53E56 /* daenerys.jpeg */,
-				D19AFA1D1F734CFF00D53E56 /* jon.jpg */,
-				D19AFA1E1F734CFF00D53E56 /* tyrion.jpg */,
-			);
-			path = imgs;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D156EDAA1F732FBA00AC7251 /* Mi Primera Tabla */ = {
+		D156EDAA1F732FBA00AC7251 /* Tarea 5 - Zapateria */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D156EDC51F732FBA00AC7251 /* Build configuration list for PBXNativeTarget "Mi Primera Tabla" */;
+			buildConfigurationList = D156EDC51F732FBA00AC7251 /* Build configuration list for PBXNativeTarget "Tarea 5 - Zapateria" */;
 			buildPhases = (
 				D156EDA71F732FBA00AC7251 /* Sources */,
 				D156EDA81F732FBA00AC7251 /* Frameworks */,
@@ -157,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "Mi Primera Tabla";
+			name = "Tarea 5 - Zapateria";
 			productName = "Mi Primera Tabla";
-			productReference = D156EDAB1F732FBA00AC7251 /* Mi Primera Tabla.app */;
+			productReference = D156EDAB1F732FBA00AC7251 /* Tarea 5 - Zapateria.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D156EDA61F732FBA00AC7251 /* Build configuration list for PBXProject "Mi Primera Tabla" */;
+			buildConfigurationList = D156EDA61F732FBA00AC7251 /* Build configuration list for PBXProject "Tarea 5 - Zapateria" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -190,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D156EDAA1F732FBA00AC7251 /* Mi Primera Tabla */,
+				D156EDAA1F732FBA00AC7251 /* Tarea 5 - Zapateria */,
 			);
 		};
 /* End PBXProject section */
@@ -200,15 +177,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19AFA201F734CFF00D53E56 /* cersei.jpg in Resources */,
 				D156EDC11F732FBA00AC7251 /* LaunchScreen.storyboard in Resources */,
-				D19AFA1F1F734CFF00D53E56 /* arya.jpg in Resources */,
-				D19AFA211F734CFF00D53E56 /* daenerys.jpeg in Resources */,
 				D156EDBE1F732FBA00AC7251 /* Assets.xcassets in Resources */,
-				D19AFA221F734CFF00D53E56 /* jon.jpg in Resources */,
 				D156EDB91F732FBA00AC7251 /* Main.storyboard in Resources */,
 				D19AFA021F7336C000D53E56 /* cellMainTable.xib in Resources */,
-				D19AFA231F734CFF00D53E56 /* tyrion.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D156EDA61F732FBA00AC7251 /* Build configuration list for PBXProject "Mi Primera Tabla" */ = {
+		D156EDA61F732FBA00AC7251 /* Build configuration list for PBXProject "Tarea 5 - Zapateria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D156EDC31F732FBA00AC7251 /* Debug */,
@@ -374,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D156EDC51F732FBA00AC7251 /* Build configuration list for PBXNativeTarget "Mi Primera Tabla" */ = {
+		D156EDC51F732FBA00AC7251 /* Build configuration list for PBXNativeTarget "Tarea 5 - Zapateria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D156EDC61F732FBA00AC7251 /* Debug */,
