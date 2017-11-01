@@ -9,11 +9,13 @@
 #import "Home.h"
 #import "cellMainTable.h"
 #import "secondViewViewController.h"
+@import Firebase;
+@import GoogleSignIn;
 
 @interface Home ()
 @property NSMutableArray *snikerNames;
 @property NSMutableArray *snikerPrice;
-@property NSMutableArray *nikerDescription;
+@property NSMutableArray *snikerDescription;
 @property NSMutableArray *snikerImages;
 @property (strong, nonatomic) IBOutlet UIImageView *tmpImage;
 @property NSMutableArray *dataToSend;
@@ -26,6 +28,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [GIDSignIn sharedInstance].uiDelegate = self;
+    [[GIDSignIn sharedInstance] signIn];
     [self initController];
 }
 //-------------------------------------------------------------------------------
@@ -38,7 +42,7 @@
 - (void)initController {
     self.snikerNames  = [[NSMutableArray alloc] initWithObjects: @"Roshe run", @"Air max", @"Air force", @"Canvas", @"Runner", @"Roshe one", nil];
     
-        self.nikerDescription  = [[NSMutableArray alloc] initWithObjects: @"Tyrion Lannister is a man", @"Daenerys Targaryen is a bad person", @"I hate Jon Snow", @"I love Arya Stark", @"I hate Cersei Lannister", @"I hate Cersei Lannister", nil];
+        self.snikerDescription  = [[NSMutableArray alloc] initWithObjects: @"Lorem impsum DIolor", @"Lorem impsum DIolor", @"Lorem impsum DIolor", @"Lorem impsum DIolor", @"Lorem impsum DIolor", @"Lorem impsum DIolor", nil];
     
     self.snikerPrice  = [[NSMutableArray alloc] initWithObjects: @"1500", @"2300", @"2200", @"1800", @"2100", @"2200", nil];
 
@@ -81,13 +85,19 @@
     self.dataToSend = [[NSMutableArray alloc]init];
     [self.dataToSend addObject:@{
                                         @"name" :  self.snikerNames[indexPath.row],
-                                        @"age" : self.snikerPrice[indexPath.row],
+                                        @"price" : self.snikerPrice[indexPath.row],
                                         @"image" :  self.snikerImages[indexPath.row],
-                                        @"description": self.nikerDescription[indexPath.row]
+                                        @"description": self.snikerDescription[indexPath.row]
                                         }];
     
     NSDictionary *objectToSend = self.dataToSend[0];
     [self performSegueWithIdentifier:@"secondView" sender:objectToSend];
+    // Log event, when a product is selected
+    [FIRAnalytics logEventWithName:@"Product_selected"
+                        parameters:@{
+                                     @"name": self.snikerNames[indexPath.row],
+                                     @"price": self.snikerPrice[indexPath.row],
+                                     }];
     NSLog(@"Item selected");
 }
 /**********************************************************************************************/
@@ -151,7 +161,6 @@
     {
         secondViewViewController *controller = [segue destinationViewController];
         controller.data = sender;
-        NSLog(@"Segueado!!!!!");
 
     }
 }

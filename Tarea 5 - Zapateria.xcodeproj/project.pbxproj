@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C5350381FA8485F0098F42F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C5350371FA8485E0098F42F /* GoogleService-Info.plist */; };
 		1CE7F0571F7BF1CA00D7B268 /* secondViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE7F0561F7BF1CA00D7B268 /* secondViewViewController.m */; };
+		76291AC2277E998DF6835EE1 /* libPods-Tarea 5 - Zapateria.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D557AFEF240522863A9C2D0B /* libPods-Tarea 5 - Zapateria.a */; };
 		D156EDB01F732FBA00AC7251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDAF1F732FBA00AC7251 /* main.m */; };
 		D156EDB31F732FBA00AC7251 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDB21F732FBA00AC7251 /* AppDelegate.m */; };
 		D156EDB61F732FBA00AC7251 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDB51F732FBA00AC7251 /* Home.m */; };
@@ -20,8 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C5350371FA8485E0098F42F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1CE7F0551F7BF1CA00D7B268 /* secondViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondViewViewController.h; sourceTree = "<group>"; };
 		1CE7F0561F7BF1CA00D7B268 /* secondViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondViewViewController.m; sourceTree = "<group>"; };
+		794463D98CB4366D23ABAA71 /* Pods-Tarea 5 - Zapateria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarea 5 - Zapateria.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tarea 5 - Zapateria/Pods-Tarea 5 - Zapateria.release.xcconfig"; sourceTree = "<group>"; };
+		7AE719CFFD2210DDC7D221F6 /* Pods-Tarea 5 - Zapateria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarea 5 - Zapateria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tarea 5 - Zapateria/Pods-Tarea 5 - Zapateria.debug.xcconfig"; sourceTree = "<group>"; };
 		D156EDAB1F732FBA00AC7251 /* Tarea 5 - Zapateria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tarea 5 - Zapateria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D156EDAF1F732FBA00AC7251 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D156EDB11F732FBA00AC7251 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		D19AF9FE1F7336C000D53E56 /* cellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
 		D19AF9FF1F7336C000D53E56 /* cellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
 		D19AFA001F7336C000D53E56 /* cellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
+		D557AFEF240522863A9C2D0B /* libPods-Tarea 5 - Zapateria.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tarea 5 - Zapateria.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76291AC2277E998DF6835EE1 /* libPods-Tarea 5 - Zapateria.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24C379462FBDBB22F60DC303 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AE719CFFD2210DDC7D221F6 /* Pods-Tarea 5 - Zapateria.debug.xcconfig */,
+				794463D98CB4366D23ABAA71 /* Pods-Tarea 5 - Zapateria.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9F19A2722BA69E13009D2E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D557AFEF240522863A9C2D0B /* libPods-Tarea 5 - Zapateria.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D156EDA21F732FBA00AC7251 = {
 			isa = PBXGroup;
 			children = (
 				D156EDAD1F732FBA00AC7251 /* Mi Primera Tabla */,
 				D156EDAC1F732FBA00AC7251 /* Products */,
+				24C379462FBDBB22F60DC303 /* Pods */,
+				B9F19A2722BA69E13009D2E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +94,7 @@
 		D156EDAD1F732FBA00AC7251 /* Mi Primera Tabla */ = {
 			isa = PBXGroup;
 			children = (
+				1C5350371FA8485E0098F42F /* GoogleService-Info.plist */,
 				D156EDC81F732FCA00AC7251 /* Main */,
 				D156EDC91F732FD500AC7251 /* Controllers */,
 				D19AF9FD1F73360A00D53E56 /* Cells */,
@@ -126,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D156EDC51F732FBA00AC7251 /* Build configuration list for PBXNativeTarget "Tarea 5 - Zapateria" */;
 			buildPhases = (
+				1BE7FA081C50FCD2FE79D1D4 /* [CP] Check Pods Manifest.lock */,
 				D156EDA71F732FBA00AC7251 /* Sources */,
 				D156EDA81F732FBA00AC7251 /* Frameworks */,
 				D156EDA91F732FBA00AC7251 /* Resources */,
+				1D50FC535613D24A67606BD4 /* [CP] Embed Pods Frameworks */,
+				94A6F88FDF562FB26213A3A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,12 +209,68 @@
 			files = (
 				D156EDC11F732FBA00AC7251 /* LaunchScreen.storyboard in Resources */,
 				D156EDBE1F732FBA00AC7251 /* Assets.xcassets in Resources */,
+				1C5350381FA8485F0098F42F /* GoogleService-Info.plist in Resources */,
 				D156EDB91F732FBA00AC7251 /* Main.storyboard in Resources */,
 				D19AFA021F7336C000D53E56 /* cellMainTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE7FA081C50FCD2FE79D1D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tarea 5 - Zapateria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D50FC535613D24A67606BD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tarea 5 - Zapateria/Pods-Tarea 5 - Zapateria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94A6F88FDF562FB26213A3A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tarea 5 - Zapateria/Pods-Tarea 5 - Zapateria-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tarea 5 - Zapateria/Pods-Tarea 5 - Zapateria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D156EDA71F732FBA00AC7251 /* Sources */ = {
@@ -314,22 +400,24 @@
 		};
 		D156EDC61F732FBA00AC7251 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE719CFFD2210DDC7D221F6 /* Pods-Tarea 5 - Zapateria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mi Primera Tabla/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wgdomenzain.Mi-Primera-Tabla";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uag.victor.tarea5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		D156EDC71F732FBA00AC7251 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794463D98CB4366D23ABAA71 /* Pods-Tarea 5 - Zapateria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mi Primera Tabla/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wgdomenzain.Mi-Primera-Tabla";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uag.victor.tarea5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

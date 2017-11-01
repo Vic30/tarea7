@@ -7,6 +7,7 @@
 //
 
 #import "secondViewViewController.h"
+@import Firebase;
 
 @interface secondViewViewController ()
 
@@ -24,6 +25,12 @@
         if (self.data.description != nil) {
             self.textdesc.text = self.data[@"description"];
         }
+        // Log event, when a product is bought
+        [FIRAnalytics logEventWithName:@"Product_bought"
+                            parameters:@{
+                                         @"name": self.name.text,
+                                         @"price": self.age.text,
+                                         }];
     }
 }
 

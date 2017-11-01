@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@import Firebase;
+@import GoogleSignIn;
 
-@interface Home : UIViewController
+@interface Home : UIViewController<GIDSignInUIDelegate>
 
 @property (strong, nonatomic) IBOutlet UITableView *tblMain;
 - (IBAction)btnAddPressed:(id)sender;

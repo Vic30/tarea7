@@ -6,11 +6,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mi Primera Tabla/secondViewViewController.h"
-            timestampString = "528224604.51665"
+            timestampString = "531239440.081448"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "6"
@@ -19,14 +19,14 @@
             landmarkType = "0">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[secondViewViewController image]"
-                  moduleName = "Mi Primera Tabla"
+                  moduleName = "Tarea 5 - Zapateria"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vic/Documents/CM2017_Tarea4/Mi%20Primera%20Tabla/secondViewViewController.h"
-                  timestampString = "528224161.294463"
+                  urlString = "file:///Users/vic/Documents/Tarea5/Mi%20Primera%20Tabla/secondViewViewController.h"
+                  timestampString = "531204558.238018"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -34,14 +34,14 @@
                   offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[secondViewViewController setImage:]"
-                  moduleName = "Mi Primera Tabla"
+                  moduleName = "Tarea 5 - Zapateria"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/vic/Documents/CM2017_Tarea4/Mi%20Primera%20Tabla/secondViewViewController.h"
-                  timestampString = "528224161.314056"
+                  urlString = "file:///Users/vic/Documents/Tarea5/Mi%20Primera%20Tabla/secondViewViewController.h"
+                  timestampString = "531204558.254005"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "12"
@@ -54,15 +54,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mi Primera Tabla/secondViewViewController.m"
-            timestampString = "528224604.517063"
+            timestampString = "531239440.081686"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>

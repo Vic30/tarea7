@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@import Firebase;
 @interface secondViewViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) IBOutlet UITextField *name;
