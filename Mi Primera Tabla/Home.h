@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 @import Firebase;
 @import GoogleSignIn;
+#import "WebServices.h"
+#import "Constants.h"
 
 @interface Home : UIViewController<GIDSignInUIDelegate>
 

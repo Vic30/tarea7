@@ -9,5 +9,7 @@ target 'Tarea 5 - Zapateria' do
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
     pod 'GoogleSignIn'
+    pod 'JSONModel'
+
 
 end

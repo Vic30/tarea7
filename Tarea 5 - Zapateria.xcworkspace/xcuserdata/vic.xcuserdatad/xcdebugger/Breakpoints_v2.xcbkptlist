@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mi Primera Tabla/secondViewViewController.m"
-            timestampString = "531239440.08103"
+            timestampString = "532372331.493317"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -22,64 +22,80 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Mi Primera Tabla/AppDelegate.m"
-            timestampString = "531239440.082073"
+            filePath = "Mi Primera Tabla/Home.m"
+            timestampString = "532372331.494858"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "-signIn:didSignInForUser:withError:"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "-getPeople"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Mi Primera Tabla/AppDelegate.m"
-            timestampString = "531239440.083664"
+            filePath = "Mi Primera Tabla/Home.m"
+            timestampString = "532372331.495082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "-signIn:didSignInForUser:withError:"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "-getPerson"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Home getPerson]"
+                  moduleName = "Tarea 5 - Zapateria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vic/Documents/tarea7/tarea7/Mi%20Primera%20Tabla/Home.m"
+                  timestampString = "532334458.403144"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "115">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__17-[Home getPerson]_block_invoke"
+                  moduleName = "Tarea 5 - Zapateria"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vic/Documents/tarea7/tarea7/Mi%20Primera%20Tabla/Home.m"
+                  timestampString = "532334458.420353"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Mi Primera Tabla/AppDelegate.m"
-            timestampString = "531239440.083922"
+            filePath = "Mi Primera Tabla/Home.m"
+            timestampString = "532372331.495281"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "-signIn:didDisconnectWithUser:withError:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Mi Primera Tabla/AppDelegate.m"
-            timestampString = "531239440.084192"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "-signIn:didSignInForUser:withError:"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

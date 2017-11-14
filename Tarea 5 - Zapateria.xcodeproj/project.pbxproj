@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1C5350381FA8485F0098F42F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C5350371FA8485E0098F42F /* GoogleService-Info.plist */; };
+		1C6E82B61FBA898B002C5C8D /* personModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E82B51FBA898B002C5C8D /* personModel.m */; };
+		1C6E82BC1FBA8D0B002C5C8D /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6E82BB1FBA8D0B002C5C8D /* WebServices.m */; };
 		1CE7F0571F7BF1CA00D7B268 /* secondViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE7F0561F7BF1CA00D7B268 /* secondViewViewController.m */; };
 		76291AC2277E998DF6835EE1 /* libPods-Tarea 5 - Zapateria.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D557AFEF240522863A9C2D0B /* libPods-Tarea 5 - Zapateria.a */; };
 		D156EDB01F732FBA00AC7251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D156EDAF1F732FBA00AC7251 /* main.m */; };
@@ -23,6 +25,11 @@
 
 /* Begin PBXFileReference section */
 		1C5350371FA8485E0098F42F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1C6E82B41FBA898B002C5C8D /* personModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = personModel.h; sourceTree = "<group>"; };
+		1C6E82B51FBA898B002C5C8D /* personModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = personModel.m; sourceTree = "<group>"; };
+		1C6E82BA1FBA8D0B002C5C8D /* WebServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		1C6E82BB1FBA8D0B002C5C8D /* WebServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		1C6E82C01FBAA636002C5C8D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		1CE7F0551F7BF1CA00D7B268 /* secondViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondViewViewController.h; sourceTree = "<group>"; };
 		1CE7F0561F7BF1CA00D7B268 /* secondViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondViewViewController.m; sourceTree = "<group>"; };
 		794463D98CB4366D23ABAA71 /* Pods-Tarea 5 - Zapateria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tarea 5 - Zapateria.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tarea 5 - Zapateria/Pods-Tarea 5 - Zapateria.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,6 +63,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C6E82B21FBA88A3002C5C8D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1C6E82BA1FBA8D0B002C5C8D /* WebServices.h */,
+				1C6E82BB1FBA8D0B002C5C8D /* WebServices.m */,
+				1C6E82C01FBAA636002C5C8D /* Constants.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		1C6E82B31FBA8947002C5C8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C6E82B41FBA898B002C5C8D /* personModel.h */,
+				1C6E82B51FBA898B002C5C8D /* personModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		24C379462FBDBB22F60DC303 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +102,7 @@
 		D156EDA21F732FBA00AC7251 = {
 			isa = PBXGroup;
 			children = (
-				D156EDAD1F732FBA00AC7251 /* Mi Primera Tabla */,
+				D156EDAD1F732FBA00AC7251 /* Tarea7 */,
 				D156EDAC1F732FBA00AC7251 /* Products */,
 				24C379462FBDBB22F60DC303 /* Pods */,
 				B9F19A2722BA69E13009D2E5 /* Frameworks */,
@@ -91,9 +117,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D156EDAD1F732FBA00AC7251 /* Mi Primera Tabla */ = {
+		D156EDAD1F732FBA00AC7251 /* Tarea7 */ = {
 			isa = PBXGroup;
 			children = (
+				1C6E82B31FBA8947002C5C8D /* Models */,
+				1C6E82B21FBA88A3002C5C8D /* Helpers */,
 				1C5350371FA8485E0098F42F /* GoogleService-Info.plist */,
 				D156EDC81F732FCA00AC7251 /* Main */,
 				D156EDC91F732FD500AC7251 /* Controllers */,
@@ -105,6 +133,7 @@
 				D156EDBA1F732FBA00AC7251 /* Mi_Primera_Tabla.xcdatamodeld */,
 				D156EDAE1F732FBA00AC7251 /* Supporting Files */,
 			);
+			name = Tarea7;
 			path = "Mi Primera Tabla";
 			sourceTree = "<group>";
 		};
@@ -279,9 +308,11 @@
 			files = (
 				D156EDB61F732FBA00AC7251 /* Home.m in Sources */,
 				D156EDBC1F732FBA00AC7251 /* Mi_Primera_Tabla.xcdatamodeld in Sources */,
+				1C6E82BC1FBA8D0B002C5C8D /* WebServices.m in Sources */,
 				D156EDB31F732FBA00AC7251 /* AppDelegate.m in Sources */,
 				D19AFA011F7336C000D53E56 /* cellMainTable.m in Sources */,
 				D156EDB01F732FBA00AC7251 /* main.m in Sources */,
+				1C6E82B61FBA898B002C5C8D /* personModel.m in Sources */,
 				1CE7F0571F7BF1CA00D7B268 /* secondViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

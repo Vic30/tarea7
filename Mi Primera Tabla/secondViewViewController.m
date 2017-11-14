@@ -19,18 +19,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     if (self.data != nil) {
-        self.name.text= self.data[@"name"];
-        self.age.text= self.data[@"age"];
-        self.image.image = self.data[@"image"];
-        if (self.data.description != nil) {
-            self.textdesc.text = self.data[@"description"];
-        }
-        // Log event, when a product is bought
-        [FIRAnalytics logEventWithName:@"Product_bought"
-                            parameters:@{
-                                         @"name": self.name.text,
-                                         @"price": self.age.text,
-                                         }];
+        self.height.text= self.data[@"height"];
+        self.skin.text= self.data[@"skin"];
+        self.hair.text = self.data[@"hair"];
     }
 }
 
